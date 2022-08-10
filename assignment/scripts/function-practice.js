@@ -39,15 +39,15 @@ console.log( num1, num2, num3);
 let answer = num1 * num2 * num3;
 return answer;
 }
-console.assert.log()
+console.log( multiplyThree (1, 2, 3))
 
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
-function isPositive( number ) {
-  if ( number > 0 ){
-    return;
-  }
-    return;
+function isPositive( number ){
+  if ( number > 0 )
+    return true;
+ if ( number <= 0 )
+ return false;
 }
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome
